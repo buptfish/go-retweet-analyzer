@@ -1,13 +1,7 @@
 package main
 
-import (
-	"os"
-)
-
-func run(args []string) int {
-	return 0
-}
+import "os"
 
 func main() {
-	os.Exit(run(os.Args[1:]))
+	os.Exit(run(os.Args))
 }
